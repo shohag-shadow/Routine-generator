@@ -1,0 +1,9 @@
+com\mycompany\routinegenerator\LoadingScreenController.class
+com\mycompany\routinegenerator\PrimaryController.class
+com\mycompany\routinegenerator\TeacherInfoController.class
+com\mycompany\routinegenerator\SubjectInfoController.class
+com\mycompany\routinegenerator\Routine.class
+module-info.class
+com\mycompany\routinegenerator\OutputScreenController.class
+com\mycompany\routinegenerator\SorryScreenController.class
+com\mycompany\routinegenerator\App.class

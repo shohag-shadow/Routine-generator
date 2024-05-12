@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" spacing="10.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.routinegenerator.TeacherInfoController">
+   <children>
+      <Label fx:id="TeacherLabel" />
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Enter Teacher name" />
+      <TextField fx:id="TeacherNaameTextArea" alignment="CENTER" maxWidth="200.0" />
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Enter schedule(Selected means Teacher is Available)" />
+      <VBox maxWidth="442.0" prefHeight="154.0" prefWidth="442.0">
+         <children>
+            <HBox fx:id="HBox1" alignment="CENTER_LEFT" maxHeight="30.0" prefHeight="48.0" prefWidth="300.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="SUN:" />
+               </children></HBox>
+            <HBox fx:id="HBox2" alignment="CENTER_LEFT" maxHeight="30.0" prefHeight="42.0" prefWidth="300.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="MON:" />
+               </children></HBox>
+            <HBox fx:id="HBox3" alignment="CENTER_LEFT" maxHeight="30.0" prefHeight="46.0" prefWidth="300.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="TUE:" />
+               </children></HBox>
+            <HBox fx:id="HBox4" alignment="CENTER_LEFT" maxHeight="30.0" prefHeight="47.0" prefWidth="300.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="WED:" />
+               </children></HBox>
+            <HBox fx:id="HBox5" alignment="CENTER_LEFT" maxHeight="30.0" prefHeight="48.0" prefWidth="300.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="THU:" />
+               </children></HBox>
+         </children>
+      </VBox>
+      <Label fx:id="ErrorLabel" textFill="#fc0000" />
+      <Button mnemonicParsing="false" onAction="#SubmitButtonClicked" style="-fx-background-color: #3366ff;" text="Submit" textFill="WHITE" />
+   </children>
+</VBox>
